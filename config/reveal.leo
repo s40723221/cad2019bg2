@@ -376,11 +376,11 @@ vertical: body pane on the botton</t>
 
 * 練習NX電子書中的練習題
 
-* WEBOT和V-REP的 tutorial 練習
+* WEBOT和V-REP的 tutorial 練習與心得及比較內容撰寫
 
 [完整網站內容](https://s40723221.github.io/cad2019bg2/)
 
-[完整網誌內容](https://s40723221.github.io/cad2019bg2/blog/index.html)</t>
+[webot and v-rep 網誌內容](https://s40723221.github.io/cad2019/blog/webot%20and%20v-rep%20tutorial.html)</t>
 <t tx="leo.20191203100252.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
