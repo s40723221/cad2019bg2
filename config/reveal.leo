@@ -68,7 +68,8 @@ Created by [bg2](https://s40723221.github.io/cad2019bg2/)
 
 [分組網誌](https://s40723221.github.io/cad2019bg2/blog/index.html)
 
-[分組網站](https://s40723221.github.io/cad2019bg2/)</t>
+[分組網站](https://s40723221.github.io/cad2019bg2/)
+</t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -179,7 +180,7 @@ make.start()
 <t tx="leo.20180902120523.5">&lt;head&gt;
     &lt;meta charset="utf-8"&gt;
 &lt;title&gt;
-CMSimfly 網際內容管理
+cad2019bg2 reveal
 &lt;/title&gt;
     &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
     &lt;meta name="author" content="Hakim El Hattab"&gt;
@@ -357,7 +358,8 @@ vertical: body pane on the botton</t>
 
 * 整理繪圖軟體的源起和歷史
 
-[完整網站內容](https://s40723221.github.io/cad2019bg2/)</t>
+[完整網站內容](https://s40723221.github.io/cad2019bg2/)
+</t>
 <t tx="leo.20191203095836.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -380,7 +382,8 @@ vertical: body pane on the botton</t>
 
 [完整網站內容](https://s40723221.github.io/cad2019bg2/)
 
-[webot and v-rep 網誌內容](https://s40723221.github.io/cad2019/blog/webot%20and%20v-rep%20tutorial.html)</t>
+[webot and v-rep 網誌內容](https://s40723221.github.io/cad2019bg2/blog/webot%20and%20v-rep%20tutorial.html)
+</t>
 <t tx="leo.20191203100252.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -391,7 +394,8 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20191203100252.2"># v-rep tutorial
-&lt;iframe width="980" height="600" src="https://www.youtube.com/embed/OgLjr4h93Fs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="980" height="600" src="https://www.youtube.com/embed/OgLjr4h93Fs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
 <t tx="leo.20191203100327.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -402,6 +406,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20191203100327.2"># webot tutorial - 1
-&lt;iframe width="980" height="600" src="https://www.youtube.com/embed/O3Y5s9b1aO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+&lt;iframe width="980" height="600" src="https://www.youtube.com/embed/O3Y5s9b1aO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
 </tnodes>
 </leo_file>
