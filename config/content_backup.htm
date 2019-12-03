@@ -909,15 +909,15 @@ NX 12中的環境，它在主窗口中顯示所有草圖工具。<br/>用於訪�
 <p><span></span>第6章-裝配建模</p>
 <p>在本章中，您將學習在裝配體建模中使用的兩種方法。<br/>NX 12 Assembly是包含各個零件的零件文件。它們被添加到零件文件中<br/>這樣一來，零件實際上就位於裝配體中並鏈接到原始零件。這個<br/>無需為計算機中的各個部件創建單獨的內存空間。所有零件都是可選的，可在設計過程中用於信息和配合。</p>
 <p>6.1 術語</p>
-<p><strong>部件</strong></p>
+<p><strong>1.部件</strong></p>
 <p>裝配體是指向零件和/或子裝配體的指針的集合。 裝配是零件<br/>文件，其中包含組件對象。</p>
-<p><strong>組件對象</strong></p>
+<p><strong>2.組件對象</strong></p>
 <p>零部件對像是指向包含零部件的零件文件的非幾何指針<br/>幾何。 組件對象存儲諸如圖層，顏色，參考集，位置之類的信息<br/>相對於文件系統中零件的裝配體和路徑的零件數據。</p>
-<p><strong>組成部分</strong></p>
+<p><strong>3.組成部分</strong></p>
 <p>零件是指的零件文件裝配件中的零部件對象。 實際幾何存儲在組件中部分並被引用，而不是被部件。</p>
-<p><strong>組件發生</strong></p>
+<p><strong>4.組件發生</strong></p>
 <p>零部件的出現是零部件文件中指向幾何的指針。 使用組件<br/>在不創建其他幾何圖形的情況下創建對零部件的一個或多個引用的實例。</p>
-<p><strong>參考集</strong></p>
+<p><strong>5.參考集</strong></p>
 <p>參考集是零部件或子裝配體中的對象的命名集合，您可以<br/>用於簡化高層裝配中零部件的表示。</p>
 <p>6.2組裝方法<br/>創建任何裝配體模型有兩種基本方法。</p>
 <p>• 自上而下的方法<br/>•自下而上的方法</p>
@@ -929,16 +929,17 @@ NX 12中的環境，它在主窗口中顯示所有草圖工具。<br/>用於訪�
 <p>可以將這兩種方法結合起來必要的，以增加裝配的靈活性設計需求。</p>
 <p>6.3裝配與約束</p>
 <p>導航儀裝配導航器和約束導航器，位於部件導航器的頂部<br/>屏幕左側的資源欄。 這些導航器向您展示了構成<br/>裝配體，包括零件層次結構，零件名稱，有關零件的信息，例如是否<br/>部分是只讀的，對像數和約束狀態。</p>
-<p><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="https://www.youtube.com/embed/TqSZqkYHViM" width="560"></iframe></p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/TqSZqkYHViM" width="560"></iframe></p>
 <p>6.4匹配約束</p>
 <p>將零部件對象添加到裝配零件文件後，將對每個零部件對象進行配對<br/>與現有對象。 通過在裝配的零部件上分配配合條件，您可以在這些組件之間建立位置關係或約束。 這些關係是稱為交配約束。 配合條件由一個或多個配合約束組成。有不同的配合約束，如下所述：</p>
-<p><strong>觸摸/對齊</strong>：選擇要對齊的平面對象將是共面的，但平面的法線<br/>將指向同一方向。 圓柱物體的中心線將與每個<br/>其他。<br/><strong></strong></p>
-<p><strong>同心</strong>：約束兩個組件的圓形或橢圓形邊緣，因此中心為<br/>重合併且邊緣的平面共面。<br/><strong></strong></p>
-<p><strong>距離</strong>：在兩個對象之間建立一個+/-距離（偏移）值<br/>平行：所選對象將彼此平行。<br/>NX 12 for Engineering Design 125密蘇里科技大學<br/><strong></strong></p>
-<p><strong>垂直</strong>：所選對象將彼此垂直。<br/><strong></strong></p>
-<p><strong>鍵合</strong>：創建焊接並將零件焊接在一起以作為單個對象移動。<br/><strong></strong></p>
-<p><strong>居中</strong>：對象將在其他對象之間居中，即沿槽定位圓柱體<br/>並將圓柱體在插槽中居中。<br/><strong></strong></p>
-<p><strong>角度</strong>：這將在組件上選擇的兩個對象實體之間固定一個恆定的角度<br/>組裝。</p>
+<p><strong>★觸摸/對齊</strong>：選擇要對齊的平面對象將是共面的，但平面的法線<br/>將指向同一方向。 圓柱物體的中心線將與每個<br/>其他。<br/><strong></strong></p>
+<p><strong>★同心</strong>：約束兩個組件的圓形或橢圓形邊緣，因此中心為<br/>重合併且邊緣的平面共面。<br/><strong></strong></p>
+<p><strong>★距離</strong>：在兩個對象之間建立一個+/-距離（偏移）值<br/><strong></strong></p>
+<p><strong>★平行</strong>：所選對象將彼此平行。<br/>NX 12 for Engineering Design 125密蘇里科技大學<br/><strong></strong></p>
+<p><strong>★垂直</strong>：所選對象將彼此垂直。<br/><strong></strong></p>
+<p><strong>★鍵合</strong>：創建焊接並將零件焊接在一起以作為單個對象移動。<br/><strong></strong></p>
+<p><strong>★居中</strong>：對象將在其他對象之間居中，即沿槽定位圓柱體<br/>並將圓柱體在插槽中居中。<br/><strong></strong></p>
+<p><strong>★角度</strong>：這將在組件上選擇的兩個對象實體之間固定一個恆定的角度<br/>組裝。</p>
 <p>6.5示例</p>
 <p>我們將組裝葉輪組件對象。 您已經在其中建模了所有組件前幾章。 現在我們必須將它們插入組裝環境並應用將它們相對放置的約束。 組裝完成後，我們可以創建分解圖並準備繪圖。</p>
 <p>6.5.1開始組裝<br/>➢創建一個新文件<br/>➢在模型選項卡下選擇裝配<br/>➢將單位設置為英寸<br/>➢命名為Impeller_assembly.prt</p>
