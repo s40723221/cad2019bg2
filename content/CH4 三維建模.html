@@ -1,0 +1,230 @@
+<!DOCTYPE html><html>
+        <head>
+        <title>cad2019bg2</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/magnific-popup.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/jquery-ui.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/bootstrap-datepicker.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/aos.css">
+        <link rel="stylesheet" href="./../cmsimde/static/chimper/css/style.css">
+        <link rel="shortcut icon" href="./../cmsimde/static/favicons.png">
+        
+        <style type='text/css'>
+            .site-section {
+            background-color: #FFFF;
+            padding: 40px 40px;
+            }
+            body > div > div.dropdown.open {
+                display: block;
+            }
+        </style>
+    
+        <!-- <script src="./../cmsimde/static/jquery.js"></script> -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/normalize.min.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch_set.js"></script>
+        <script src="tipuesearch_content.js"></script>
+        <link rel="stylesheet" href="./../cmsimde/static/tipuesearch/css/tipuesearch.css">
+        <script src="./../cmsimde/static/tipuesearch/tipuesearch.js"></script>
+        <script>
+            /* original tipuesearch
+            $(document).ready(function() {
+                 $('#tipue_search_input').tipuesearch();
+            });
+            */
+            // customed doSearch
+            function doSearch() {
+                $('#tipue_search_input').tipuesearch({
+                    newWindow: true, 
+                    minimumLength: 2,
+                    wholeWords: false, // for search 中文
+                });
+            }
+            $(document).ready(doSearch);
+        </script>
+        
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJScript.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushJava.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPython.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushSql.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushHaxe.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushXml.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushPhp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushLua.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCpp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCss.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushCSharp.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shBrushDart.js"></script>
+<link type="text/css" rel="stylesheet" href="./../cmsimde/static/syntaxhighlighter/css/shCoreDefault.css"/>
+<script type="text/javascript">SyntaxHighlighter.all();</script>
+
+<!-- 啟用 LaTeX equations 編輯 -->
+<script src="https://scrum-3.github.io/web/math/MathJax.js?config=TeX-MML-AM_CHTML" type="text/javascript"></script>
+<script type="text/javascript">
+init_mathjax = function() {
+    if (window.MathJax) {
+        // MathJax loaded
+        MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+            },
+            displayAlign: 'left', // Change this to 'center' to center equations.
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}}
+            }
+        });
+        MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+}
+init_mathjax();
+</script>
+
+<!-- 暫時不用
+<script src="./../cmsimde/static/fengari-web.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/Cango-13v08-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/CangoAxes-4v01-min.js"></script>
+<script type="text/javascript" src="./../cmsimde/static/gearUtils-05.js"></script>
+-->
+<!-- for Brython 暫時不用
+<script src="https://scrum-3.github.io/web/brython/brython.js"></script>
+<script src="https://scrum-3.github.io/web/brython/brython_stdlib.js"></script>
+-->
+<style>
+img.add_border {
+    border: 3px solid blue;
+}
+</style>
+
+</head>
+<body>
+<div class='container'><nav>
+        
+    <div class="site-wrap">
+
+    <div class="site-mobile-menu">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    
+            <header class="site-navbar py-4 bg-white" role="banner">
+              <div class="container-fluid">
+                <div class="row align-items-center">
+                <h1>cad2019bg2</h1>
+                <div class="pl-4">
+                    <form>
+                    <input type="text" placeholder="Search" name="q" id="tipue_search_input" pattern=".{2,}" title="At least 2 characters" required>
+                    </form>
+                </div>
+                  <!-- <div class="col-11 col-xl-2">
+                    <h1 class="mb-0 site-logo"><a href="index.html" class="text-black h2 mb-0">cad2019bg2</a></h1> 
+                  </div>
+                  -->
+                  <div class="col-12 col-md-10 d-none d-xl-block">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+    <ul class='site-menu js-clone-nav mr-auto d-none d-lg-block'>
+                        <li class="active has-children"><a href="index.html">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="sitemap.html">Site Map</a></li>
+                            <li><a href="./../reveal/index.html">reveal</a></li>
+                            <li><a href="./../blog/index.html">blog</a></li>
+                        </ul>
+                      </li>
+                     <li><a href='member.html'>member</a><li class='has-children'><a href='week.html'>week</a><ul class='dropdown'><li class='has-children'><a href='w10-w12.html'>w10-w12</a><ul class='dropdown'><li><a href='proe開發緣起.html'>proe開發緣起</a><li><a href='solidworks開發緣起.html'>solidworks開發緣起</a><li><a href='NX開發緣起.html'>NX開發緣起</a><li><a href='inventor開發緣起.html'>inventor開發緣起</a><li><a href='solvespace教程.html'>solvespace教程</a><li><a href='各繪圖軟體套件安裝及設定流程.html'>各繪圖軟體套件安裝及設定流程</a></li></ul><li><a href='w13-w15.html'>w13-w15</a><li><a href='w16-w18.html'>w16-w18</a></li></ul><li class='has-children'><a href='NX電子書整理.html'>NX電子書整理</a><ul class='dropdown'><li><a href='CH1 NX介紹.html'>CH1 NX介紹</a><li><a href='CH2 NX入門教程.html'>CH2 NX入門教程</a><li><a href='CH3 平面草圖.html'>CH3 平面草圖</a><li><a href='CH4 三維建模.html'>CH4 三維建模</a><li><a href='CH5 草圖.html'>CH5 草圖</a><li><a href='CH6 將模型組立.html'>CH6 將模型組立</a><li><a href='CH7 曲面建模.html'>CH7 曲面建模</a><li><a href='CH8 有限元素分析.html'>CH8 有限元素分析</a></li></ul><li><a href='About.html'>About</a><li><a href='Develop.html'>Develop</a></li>
+                      </ul>
+                </nav>
+              </div>
+              <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+              </div>
+
+            </div>
+          </div>
+          
+        </header>
+    <div id="tipue_search_content">CH3 平面草圖 << <a href='CH3 平面草圖.html'>Previous</a> <a href='CH5 草圖.html'>Next</a> >> CH5 草圖<br /><h1>CH4 三維建模</h1>
+<p>本章討論的是NX12的3D建模基礎教學，NX12如同其他的繪圖軟體同樣也可以透過左邊的歷史紀錄去更改之前的零件尺寸，本章節也會介紹一些常見的功能，像是長出、旋轉繞形、取線的修剪、圓柱體和圓錐體等圖形的繪製。</p>
+<p><span>4-1功能類型</span></p>
+<p>功能類型包括了六種:圖形、特徵的參照、特徵的掃描、刪除特徵功能、提取功能、自訂義功能。</p>
+<p>(如下圖所示:可以在NX12的介面處右方下拉箭頭挑選常用的功能)</p>
+<p><img caption="false" height="356" src="https://s40723221.github.io/cad2019/images/NX12-1.png" width="300"/></p>
+<p><span>4.1.1圖元</span></p>
+<p>這些功能列表可以得到如:方塊或者是圓柱體、錐形、球體等圖形，並且讓使用者可以後續再做其他的建模。</p>
+<p><span>4.1.2參照功能</span></p>
+<p>可以用下列圖片中的功能來創建參考點或者是參考軸、參照平面、參照座標方便去定義其他的圖形位置。</p>
+<p><img alt="" height="380" src="https://s40723221.github.io/cad2019/images/NX12-2.png" width="300"/></p>
+<p><span>4.1.3掃描功能</span></p>
+<p>在NX左方的MENU功能表中的insert(插入)中design feature(設計特徵)的功能達到如同:長出、旋轉繞形、延曲線掃描、掃描混成等功能。</p>
+<p><span>4.1.4刪除特徵功能</span></p>
+<p>如上圖所示可以使用:如同孔、鍵座、凹槽等等切除特徵的功能都可以從上圖中找到。</p>
+<p><span>4.1.5提取特徵功能</span></p>
+<p>1.在NX12中提取特徵的功能有如同:薄殼、位移特徵、加厚特徵等功能。</p>
+<p>2.在NX左方的MENU功能表中的insert(插入)中的associative copy中的extract geometry(提取幾何或複製幾何)可以複製一個實體(該實體由多個特徵集合而成)。</p>
+<p>3.在NX左方的MENU功能表中的insert(插入)中的offset/scale(位移/比例)中，可以看到位移、薄殼、增加厚度的功能。</p>
+<p>4.在NX左方的MENU功能表中的insert(插入)中的surface(面)中，可以看到曲線及曲面的繪製功能在功能表的此處。</p>
+<p><span>4.1.6自訂義功能</span></p>
+<p>在NX左方的MENU功能表中的insert(插入)中的design feature中的user defined可以自訂義自己想要的介面功能。</p>
+<p><span>零組件繪製:</span></p>
+<p><span>1.</span><span>繪製錐形軸</span>:sketch選取平面&gt;選取好平面後繪製草圖中的圓形(直徑為4 (inch)&gt;利用extrude(長出)(高度為18 (inch)&gt;點選insert中的design feature中con(錐體)並且選取直徑和Z軸&gt;在base diameter中輸入4 (inch)、top diameter中輸入6 (inch)、height中輸入10 (inch)&gt;在錐體直徑較大的一端繪製一(直徑為6)和一(高度為20)的圓柱體點擊ok就完成了。</p>
+<p><span>操作影片:</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="https://www.youtube.com/embed/dfC3_qGwo4Q" width="560"></iframe><span></span></span></p>
+<p><span><span>2</span>.<span>繪製葉輪</span></span>:sketh選取平面&gt;點選menu中的insert中的direct sketch&gt;創建兩個point其座標分別是(0,0,0)及(11.75,6,0)&gt;使用arc(弧線)繪製如影片中的形狀&gt;使用insert裡面的design feature 中的con(錐體)並且記得要將放置點設置於座標(14,0,0)的位置&gt;設置錐體尺寸<span>base diameter (</span>底部直徑<span>)=15</span>、<span>Top Diameter(</span>頂部直徑<span>) = 8</span>、<span>Height(</span>高度<span>) = 16.25&gt;</span>利用長出將剛剛繪製好的葉輪草圖長出實體<span>(</span>厚度為<span>12)&gt;</span>利用<span>insert&gt; Associative Copy&gt;Pattern Feature(</span>陣列<span>)&gt;</span>數量為五個分布角度為<span>72</span>度點擊<span>ok</span>就完成了。</p>
+<p><span>操作影片:</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="https://www.youtube.com/embed/KcL1Xil6e28" width="560"></iframe><br/></span></p>
+<p><span><span>3.</span><span>繪製底座箱體</span>:<span>sketh選取平面&gt;先繪製立面和立面上的斜邊特徵&gt;繪製左邊圓型特徵(以旋轉長出的方式繪製)&gt;挖除圓形孔&gt;繪製長在圓形孔內的特徵(包括圓柱體及四邊長方體)&gt;將內部小圓柱體的螺紋補上(螺紋的小徑為0.395)&gt;在左方圓柱體的上方加上3個半圓特徵並且在上方打上小孔&gt;將右方的平面補上並且在上面打上小孔&gt;在兩個小孔中也必須繪製螺紋(螺紋的小徑為0.395)&gt;繪製上方的斜形肋特徵&gt;繪製完之後檢查一下是否正確就完成了。</span></span><span></span></p>
+<p><span>操作影片:</span></p>
+<p><span><iframe allowfullscreen="allowfullscreen" data-mce-fragment="1" height="314" src="https://www.youtube.com/embed/_vpV-dJNF0A" width="560"></iframe></span></p><br />CH3 平面草圖 << <a href='CH3 平面草圖.html'>Previous</a> <a href='CH5 草圖.html'>Next</a> >> CH5 草圖</div>
+        
+    <!-- footer -->
+      <div class="container">
+        <div class="row pt-3 mx-auto">
+            <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    <!-- for footer -->
+    
+        </div> <!-- for site wrap -->
+            <!-- <script src="../cmsimde/static/chimper/js/jquery-3.3.1.min.js"></script> -->
+            <script src="../cmsimde/static/chimper/js/jquery-migrate-3.0.1.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery-ui.js"></script>
+            <script src="../cmsimde/static/chimper/js/popper.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/owl.carousel.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.stellar.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.countdown.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/jquery.magnific-popup.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/bootstrap-datepicker.min.js"></script>
+            <script src="../cmsimde/static/chimper/js/aos.js"></script>
+            <!--
+            <script src="../cmsimde/static/chimper/js/typed.js"></script>
+                    <script>
+                    var typed = new Typed('.typed-words', {
+                    strings: ["Web Apps"," WordPress"," Mobile Apps"],
+                    typeSpeed: 80,
+                    backSpeed: 80,
+                    backDelay: 4000,
+                    startDelay: 1000,
+                    loop: true,
+                    showCursor: true
+                    });
+                    </script>
+            -->
+            <script src="../cmsimde/static/chimper/js/main.js"></script>
+        </body></html>
+        
