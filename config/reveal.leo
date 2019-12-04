@@ -394,7 +394,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20191203100252.2"># v-rep tutorial
-&lt;iframe width="980" height="600" src="https://www.youtube.com/embed/OgLjr4h93Fs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="1280" height="720" src="https://www.youtube.com/embed/CXGJmwHt81g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20191203100327.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -406,7 +406,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20191203100327.2"># webot tutorial - 1
-&lt;iframe width="980" height="600" src="https://www.youtube.com/embed/O3Y5s9b1aO8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="1280" height="720" src="https://www.youtube.com/embed/WvjJnmwwXP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>
