@@ -57,7 +57,7 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## cad2019bg2 網際內容管理
+<t tx="leo.20180902120523.10">## cad2019bg2 電腦輔助設計實習
 
 
 &lt;small&gt;
@@ -394,7 +394,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20191203100252.2"># v-rep tutorial
-&lt;iframe width="1280" height="720" src="https://www.youtube.com/embed/CXGJmwHt81g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="800" height="600" src="https://www.youtube.com/embed/CXGJmwHt81g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20191203100327.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -406,7 +406,7 @@ vertical: body pane on the botton</t>
 						
 </t>
 <t tx="leo.20191203100327.2"># webot tutorial - 1
-&lt;iframe width="1280" height="720" src="https://www.youtube.com/embed/WvjJnmwwXP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="800" height="600" src="https://www.youtube.com/embed/WvjJnmwwXP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>
