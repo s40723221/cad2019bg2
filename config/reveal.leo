@@ -33,6 +33,21 @@
 <v t="leo.20191203100327.1"><vh>WEBOT</vh>
 <v t="leo.20191203100327.2"><vh>WEBOT</vh></v>
 </v>
+<v t="leo.20191217104444.1"><vh>WEBOT2</vh>
+<v t="leo.20191217104444.2"><vh>WEBOT</vh></v>
+</v>
+<v t="leo.20191217104538.1"><vh>WEBOT3</vh>
+<v t="leo.20191217104538.2"><vh>WEBOT</vh></v>
+</v>
+<v t="leo.20191217104622.1"><vh>WEBOT4</vh>
+<v t="leo.20191217104622.2"><vh>WEBOT</vh></v>
+</v>
+<v t="leo.20191217104701.1"><vh>WEBOT5</vh>
+<v t="leo.20191217104701.2"><vh>WEBOT</vh></v>
+</v>
+<v t="leo.20191217104733.1"><vh>WEBOT6</vh>
+<v t="leo.20191217104733.2"><vh>WEBOT</vh></v>
+</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -407,6 +422,66 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20191203100327.2"># webot tutorial - 1
 &lt;iframe width="800" height="600" src="https://www.youtube.com/embed/WvjJnmwwXP8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191217104444.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191217104444.2"># webot tutorial - 2
+&lt;iframe width="800" height="600" src="https://www.youtube.com/embed/u4UcYEttx3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191217104538.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191217104538.2"># webot tutorial - 3
+&lt;iframe width="800" height="600" src="https://www.youtube.com/embed/T4F8Gu2OMA4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191217104622.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191217104622.2"># webot tutorial - 4
+&lt;iframe width="800" height="600" src="https://www.youtube.com/embed/e_boL1KLTno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191217104701.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191217104701.2"># webot tutorial - 5
+&lt;iframe width="800" height="600" src="https://www.youtube.com/embed/PyE6m2m0oo8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20191217104733.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20191217104733.2"># webot tutorial - 6
+&lt;iframe width="800" height="600" src="https://www.youtube.com/embed/dfq4Q9sTsOg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 </tnodes>
 </leo_file>
